@@ -83,6 +83,7 @@ cp <mujoco_key_folder>/mjkey.txt <installation_path_of_your_choice>/rllab/vendor
 cd <installation_path_of_your_choice>
 git clone https://github.com/haarnoja/sac.git
 cd sac
+git checkout 6b37e0165f5af549f2a6e463cc9b191ff8d62268
 ```
 
 5. Create and activate conda environment
